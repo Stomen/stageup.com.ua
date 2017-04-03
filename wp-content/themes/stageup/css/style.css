@@ -1,0 +1,255 @@
+.center {
+  max-width: 1120px;
+  min-width: 250px;
+  width: 100%;
+  min-height: 50px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  width: 100%;
+  background: white;
+  font-family: OpenSans;
+}
+.wrapper header .top-line {
+  background: #154ca1;
+}
+.wrapper header .top-line .phone-item {
+  color: white;
+  font-family: OpenSans-Semibold;
+  font-size: 1.6em;
+  display: inline-block;
+  margin: 33px 0 35px 0;
+  float: left;
+}
+.wrapper header .top-line .phone-item:first-child {
+  margin-left: 15%;
+}
+.wrapper header .top-line .phone-item:nth-child(2) {
+  margin-left: 23px;
+}
+.wrapper header .top-line .search-item {
+  float: right;
+  height: 40px;
+  width: 390px;
+  border-radius: 4px;
+  background: white;
+  margin-top: 20px;
+}
+.wrapper header .top-line .search-item input {
+  border: none;
+  outline: none;
+}
+.wrapper header .top-line .search-item input[type='text'] {
+  width: 80%;
+  background: transparent;
+  font-size: 1.6em;
+  font-family: OpenSans-Light;
+  margin: 9px 15px 9px 15px;
+  padding: 0;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.wrapper header .top-line .search-item input[type='text'] ::-webkit-input-placeholder {
+  color: #779dc1;
+}
+.wrapper header .top-line .search-item input[type='text'] ::-moz-placeholder {
+  color: #779dc1;
+}
+.wrapper header .top-line .search-item input[type='text'] :-moz-placeholder {
+  color: #779dc1;
+}
+.wrapper header .top-line .search-item input[type='text'] :-ms-input-placeholder {
+  color: #779dc1;
+}
+.wrapper header .top-line .search-item input[type='submit'] {
+  width: 18%;
+  background: transparent;
+}
+.wrapper header .middle-line {
+  min-height: 20px;
+}
+
+/**
+ *  Reset Html5Doctor v1.6.1
+ *  Author: Richard Clark
+ */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../assets/fonts/OpenSans/OpenSans.eot") format("embedded-opentype"), url("../assets/fonts/OpenSans/OpenSans.woff") format("woff"), url("../assets/fonts/OpenSans/OpenSans.ttf") format("truetype"), url("../assets/fonts/OpenSans/OpenSans.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("../assets/fonts/OpenSans-Light/OpenSans-Light.eot") format("embedded-opentype"), url("../assets/fonts/OpenSans-Light/OpenSans-Light.woff") format("woff"), url("../assets/fonts/OpenSans-Light/OpenSans-Light.ttf") format("truetype"), url("../assets/fonts/OpenSans-Light/OpenSans-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url("../assets/fonts/OpenSans-Semibold/OpenSans-Semibold.eot") format("embedded-opentype"), url("../assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"), url("../assets/fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../assets/fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../assets/fonts/OpenSans-Bold/OpenSans-Bold.eot") format("embedded-opentype"), url("../assets/fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../assets/fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

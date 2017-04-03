@@ -1,0 +1,82 @@
+@mixin placeholder{
+  ::-webkit-input-placeholder {color: #779dc1;}
+  ::-moz-placeholder          {color: #779dc1;}/* Firefox 19+ */
+  :-moz-placeholder           {color: #779dc1;}/* Firefox 18- */
+  :-ms-input-placeholder      {color: #779dc1;}
+}
+.center{
+  max-width: 1120px;
+  min-width: 250px;
+  width: 100%;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.clear{
+  clear: both;
+}
+.wrapper{
+  width: 100%;
+  background: white;
+  font-family: OpenSans;
+  header{
+    .top-line{
+      background: #154ca1;
+      .phone-item{
+        color: white;
+        font-family: OpenSans-Semibold;
+        font-size: 1.6em;
+        display: inline-block;
+        margin: 33px 0 35px 0;
+        float: left;
+        &:first-child{
+          margin-left: 15%;
+        }
+        &:nth-child(2){
+          margin-left: 23px;
+        }
+      }
+      .search-item{
+        float: right;
+        height: 40px;
+        width: 390px;
+        border-radius: 4px;
+        background: white;
+        margin-top: 20px;
+
+        input{
+          border: none;
+          outline: none;
+          &[type='text']{
+            width: 80%;
+            background: transparent;
+            font-size: 1.6em;
+            font-family: OpenSans-Light;
+            margin: 9px 15px 9px 15px;
+            padding: 0;
+            @include placeholder;
+
+        }
+          &[type='submit']{
+          width: 18%;
+            background: transparent;
+          }
+        }
+      }
+    }
+    .middle-line{
+      min-height: 20px;
+      .logo{
+
+      }
+    }
+    .bottom-line{
+      nav{
+        ul{
+          li{
+
+          }
+        }
+      }
+    }
+  }
+}
