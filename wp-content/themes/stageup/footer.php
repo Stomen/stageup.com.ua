@@ -1,28 +1,26 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package stageup
- */
 
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'stageup' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'stageup' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'stageup' ), 'stageup', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+<footer>
+<div class="center">
+    <div class="footer-items">
+    <span>Использование любых материалов, размещённых на сайте, разрешается при условии ссылки на сайт
+        образовательной компании Stage Up. Для интернет-изданий – обязательна прямая открытая для поисковых систем гиперссылка.
+        Ссылка должна быть размещена вне зависимости от полного либо частичного использования материалов</span>
+        <div class="social-network-item">
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <div class="phone-item">
+            <div class="phone-number"><a href="tel:+380577556336" target="_blank">+38 057 755 63 36</a></div>
+            <div class="phone-number"><a href="tel:+380577556336" target="_blank">+38 050 446 63 36</a></div>
+        </div>
+    </div>
+    <div class="info">
+        <span>2015-2017© Stage Up</span>
+        <span>Design by Santan Studio</span>
+    </div>
+</div>
+</footer>
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>

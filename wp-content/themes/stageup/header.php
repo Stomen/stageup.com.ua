@@ -11,10 +11,33 @@
 <body>
 <div class="wrapper">
 	<header>
+        <div class="burger-nav">
+            <div class="center">
+                <div class="search-item">
+                    <input type="text" placeholder="поиск">
+                    <input type="submit" value="">
+                </div>
+                <div class="burger-menu">
+                    <div class="burger"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">главная</a></li>
+                        <li><a href="">по странам</a></li>
+                        <li><a href="">по направлениям</a></li>
+                        <li><a href="">новости</a></li>
+                        <li><a href="">советы</a></li>
+                        <li><a href="">контакты</a></li>
+                        <li><a href="">for partners</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </div>
 		<div class="top-line">
 			<div class="center">
-				<div class="phone-item">+38 057 755 63 36</div>
-				<div class="phone-item">+38 050 446 63 36</div>
+				<div class="phone-item"><a href="tel:+380577556336" target="_blank">+38 057 755 63 36</a></div>
+				<div class="phone-item"><a href="tel:+380577556336" target="_blank">+38 050 446 63 36</a></div>
 				<div class="search-item">
 					<input type="text" placeholder="поиск">
 					<input type="submit" value="">
@@ -23,21 +46,19 @@
 			</div>
 		</div>
 		<div class="middle-line">
-			<div class="logo"></div>
+			<div class="center">
+                <a href="">
+                    <div class="logo"></div>
+                </a>
+            </div>
 		</div>
 		<div class="bottom-line">
-			<nav>
-				<ul>
-					<li><a href="">главная</a></li>
-					<li><a href="">по странам</a></li>
-					<li><a href="">по направлениям</a></li>
-					<li><a href="">новости</a></li>
-					<li><a href="">советы</a></li>
-					<li><a href="">контакты</a></li>
-					<li><a href="">for partners</a></li>
-				</ul>
-			</nav>
+			<div class="center">
+                <nav>
+                    <?php wp_nav_menu( array('menu' => 'main_menu' )); ?>
+                </nav>
+            </div>
 		</div>
 	</header>
-</div>
+
 
